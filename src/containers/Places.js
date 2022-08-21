@@ -22,11 +22,15 @@ class Places extends Component {
 		super(props)
 		this.getAddress = this.getAddress.bind(this);
 	}
+
 	componentDidMount() {
 		const { dispatch } = this.props;
 		dispatch(getPlacesOfHelsinki())
 	}
 
+  /** 
+   * @description Concatenate the strings for the address
+   */
 	getAddress(item) {
 		if(item) {
 			return `${item.location.address.street_address}, ${item.location.address.postal_code}, ${item.location.address.locality}`
@@ -35,6 +39,8 @@ class Places extends Component {
 
 	render() {
 		const { places } = this.props;
+
+		// let the service wait for the response from the API call
 		if (!places || !Object.keys(places).length) {
 			return <p> There are no places at the moment ! </p>
 		}

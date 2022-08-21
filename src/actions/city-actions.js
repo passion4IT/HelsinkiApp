@@ -22,7 +22,7 @@ function requestHelsinkiPlacese() {
 }
 
 /**
- * @param {object} {
+ * @param {object} places
  * @description get API response from open api for places call.
  */
 function receiveHelsinkiPlaces(places) {
