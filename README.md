@@ -41,4 +41,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - To learn about Material UI, [documentation](https://mui.com/).
 - To check out the OpenAPI, [documentation](https://open-api.myhelsinki.fi/doc).
 
-### Note: This is not a Commercial Project. Rather, the application is built to explore the Open API with React, Redux and Material. Images used are from publically available services.
+##### Note: This is not a Commercial Project. Rather, the application is built to explore the Helsinki Open API with React, Redux and MaterialUI. Images used are from publically available services.
