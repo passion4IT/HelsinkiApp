@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.finnish_flag {
+  border:  1px solid lightgray;
+  margin:  0 10px;
+}
